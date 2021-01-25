@@ -1,0 +1,59 @@
+/*
+** Header
+*/
+.header {
+    &__profile-image {
+        display: flex;
+        align-items: center;
+    }
+
+    &__thumb-lg {
+        height: 88px;
+        width: 88px;
+        object-fit: cover;
+        @media (min-width: $large-desktop) {
+            height: 180px;
+            width: 180px;
+        }
+    }
+
+    &__titles {
+        background-color: #00897b;
+        padding: 10px;
+        border-radius: 24px;
+    }
+    &__subtitle {
+        margin: 0;
+    }
+}
+
+
+.text-custom {
+    color: #a0bfff !important;
+}
+
+.badge-custom {
+    background: #a0bfff;
+    color: #fff;
+}
+.badge {
+    font-family: Rubik, sans-serif;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    padding: 0.35em 0.5em;
+    font-weight: 500;
+}
+.text-muted {
+    color: #98a6ad !important;
+}
+
+.font-13 {
+    font-size: 13px !important;
+}
+/*
+** ORDERS
+*/
+.card {
+    border: none;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
